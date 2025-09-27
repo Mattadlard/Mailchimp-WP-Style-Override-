@@ -1,0 +1,56 @@
+/* Mailchimp form overrides: readable, high-contrast
+
+   How to use (WordPress "Additional CSS"):
+   1) Ensure Mailchimp's stylesheet is loaded by the embed:
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+   2) Paste all of this file into Appearance → Customise → Additional CSS, then Publish.
+   3) Clear caches if needed.
+*/
+
+/* Labels, headings, helper text */
+#mc_embed_signup,
+#mc_embed_signup h2,
+#mc_embed_signup label,
+#mc_embed_signup .indicates-required,
+#mc_embed_signup .mc-field-group {
+  color: #000000 !important;
+}
+
+/* Inputs (typed text inside the fields) */
+#mc_embed_signup input[type="text"],
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="tel"],
+#mc_embed_signup input[type="url"],
+#mc_embed_signup input[type="number"],
+#mc_embed_signup input[type="date"] {
+  color: #000000 !important;             /* user-typed text */
+  background-color: #ffffff !important;  /* field background */
+}
+
+/* Placeholders (ghost text before typing) */
+#mc_embed_signup input::placeholder {
+  color: #555555 !important; /* readable, not overpowering */
+}
+
+/* Subscribe button */
+#mc_embed_signup .button {
+  background-color: #ffffff !important; /* white background */
+  color: #000000 !important;            /* black text */
+  border: 1px solid #000000 !important; /* visible edge */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hover/Focus states */
+#mc_embed_signup .button:hover,
+#mc_embed_signup .button:focus {
+  background-color: #000000 !important; /* invert on hover */
+  color: #ffffff !important;
+}
+
+/* Focus outlines for accessibility */
+#mc_embed_signup input:focus,
+#mc_embed_signup .button:focus {
+  outline: 2px solid #824bb4;  /* visible focus ring */
+  outline-offset: 2px;
+}
