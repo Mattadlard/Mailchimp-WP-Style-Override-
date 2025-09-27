@@ -110,10 +110,10 @@ Then place `mailchimp-override.css` in your theme at `/wp-content/themes/YOUR-TH
 
 ## What this does (and doesn’t)
 
-- ✅ Makes labels, helper text, input text, and placeholders readable.  
-- ✅ Gives the subscribe button high-contrast states.  
-- ✅ Adds visible focus rings for keyboard users.  
-- ❌ Doesn’t change your layout or Mailchimp’s HTML.
+-  Makes labels, helper text, input text, and placeholders readable.  
+-  Gives the subscribe button high-contrast states.  
+-  Adds visible focus rings for keyboard users.  
+X  Doesn’t change your layout or Mailchimp’s HTML.
 
 ---
 
